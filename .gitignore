@@ -1,0 +1,8 @@
+# ClawHub 发布排除规则（避免打包本地 venv / 缓存 / 临时产物）
+temp_env/
+__pycache__/
+*.pyc
+*.pyo
+outputs/
+*.egg-info/
+.DS_Store
